@@ -1,4 +1,3 @@
-package java;
 public class ViratKohli {
     public static void main(String[] args) {
         // Variables to store Virat Kohli's information
