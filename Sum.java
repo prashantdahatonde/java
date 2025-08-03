@@ -11,6 +11,8 @@ public class Sum {
         int secondNum = input.nextInt();
         int sum = firstNum + secondNum;
         System.out.println("Sum of your number is:"+sum);
+
+        System.out.println("thanks for using our calculator");
     }
     
 }
