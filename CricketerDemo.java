@@ -1,11 +1,11 @@
  class Cricketer {
     String name;
     int age;
-    String role;   // e.g., Batsman, Bowler, All-Rounder, Wicket-Keeper
+    String role;   
     int runs;
     int wickets;
 
-    // Constructor
+    
     Cricketer(String name, int age, String role, int runs, int wickets) {
         this.name = name;
         this.age = age;
@@ -14,7 +14,7 @@
         this.wickets = wickets;
     }
 
-    // Method to display details
+    
     void displayDetails() {
         System.out.println("----- Cricketer Details -----");
         System.out.println("Name    : " + name);
@@ -31,7 +31,7 @@ public class CricketerDemo {
         // Create Cricketer object
         Cricketer c1 = new Cricketer("Virat Kohli", 35, "Batsman", 12000, 4);
 
-        // Display details
-        c1.displayDetails();
+        /
+        c1.displayDetails();/ Display details
     }
 }
